@@ -62,16 +62,22 @@ document.addEventListener('DOMContentLoaded', () => {
 function handleClickLixi() {
   // Mảng chứa message cho chúc mừng
   const chucMungMessages = [
-    '''Chúc bạn như Trịnh Trần Phương Tuấn.
-TRỊNH trọng kính chúc, xuân mới bình an
-TRẦN đời may mắn, hạnh phúc ngập tràn
-PHƯƠNG hướng sáng suốt, dẫn lối thành công
-TUẤN tài thịnh vượng, vạn sự như mơ''',
-  'Chúc bạn năm mới tiền vô như suối, tiền ra cho mình😏',
-  'Ngàn lời động viên không bằng lời khuyên của anh Huấn. Chúc các bạn năm mới cần cù và siêng năng, có làm và có ăn, vạn sự như ý tỷ sự như mơ vạn vạn bất ngờ, mạnh khoẻ và bình an bạn nhớ😳🎆',
-  '🎉 Chúc mừng năm mới! Chúc bạn một năm tràn đầy niềm vui, sức khỏe dồi dào và thành công vượt bậc! 🎆',
-    '🌸 Tết đến xuân về, chúc bạn vạn sự như ý, mọi khó khăn đều qua đi, chỉ còn lại niềm vui và hạnh phúc! 🌟',
-    '🎁 Chúc bạn năm mới phát tài phát lộc, mọi công việc đều thuận lợi, gia đình hạnh phúc và vui vẻ! 🏡',
+    `Chúc bạn như Trịnh Trần Phương Tuấn.
+        TRỊNH trọng kính chúc, xuân mới bình an
+        TRẦN đời may mắn, hạnh phúc ngập tràn
+        PHƯƠNG hướng sáng suốt, dẫn lối thành công
+        TUẤN tài thịnh vượng, vạn sự như mơ
+        `,
+    'Chúc bạn năm mới tiền vô như suối, tiền ra cho mình😏',
+    'Ngàn lời động viên không bằng lời khuyên của anh Huấn. Chúc các bạn năm mới cần cù và siêng năng, có làm và có ăn, vạn sự như ý tỷ sự như mơ vạn vạn bất ngờ, mạnh khoẻ và bình an bạn nhớ😳🎆',
+    `Chúc bạn như Trịnh Trần Phương Tuấn.
+        TRỊNH trọng kính chúc, xuân mới bình an
+        TRẦN đời may mắn, hạnh phúc ngập tràn
+        PHƯƠNG hướng sáng suốt, dẫn lối thành công
+        TUẤN tài thịnh vượng, vạn sự như mơ
+        `,
+    'Chúc bạn năm mới tiền vô như suối, tiền ra cho mình😏',
+    'Ngàn lời động viên không bằng lời khuyên của anh Huấn. Chúc các bạn năm mới cần cù và siêng năng, có làm và có ăn, vạn sự như ý tỷ sự như mơ vạn vạn bất ngờ, mạnh khoẻ và bình an bạn nhớ😳🎆',
   ];
 
   // Mảng chứa message cho bao lì xì
